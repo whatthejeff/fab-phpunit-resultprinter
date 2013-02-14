@@ -10,10 +10,9 @@
             "email": "whatthejeff@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "whatthejeff/fab": "1.0.*@dev"
+        "whatthejeff/fab": ">=1.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
