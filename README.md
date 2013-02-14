@@ -3,7 +3,7 @@ The Fab PHPUnit Result Printer
 
 [![Build Status](https://secure.travis-ci.org/whatthejeff/fab-phpunit-resultprinter.png?branch=master)](https://travis-ci.org/whatthejeff/fab-phpunit-resultprinter)
 
-Make your unit tests fabulous!
+Make your unit tests [fabulous](https://github.com/whatthejeff/fab)!
 
 ## Usage
 
