@@ -1,8 +1,6 @@
 The Fab PHPUnit Result Printer
 ==============================
 
-[![Build Status](https://secure.travis-ci.org/whatthejeff/fab-phpunit-resultprinter.png?branch=master)](https://travis-ci.org/whatthejeff/fab-phpunit-resultprinter)
-
 Make your unit tests [fabulous](https://github.com/whatthejeff/fab)!
 
 ## Usage
@@ -32,6 +30,8 @@ Once installed, add the following attributes to the `<phpunit>` element in your
     printerClass="Fab\PHPunit\ResultPrinter"
 
 ## Tests
+
+[![Build Status](https://secure.travis-ci.org/whatthejeff/fab-phpunit-resultprinter.png?branch=master)](https://travis-ci.org/whatthejeff/fab-phpunit-resultprinter)
 
 To run the test suite, you need [composer](http://getcomposer.org).
 
