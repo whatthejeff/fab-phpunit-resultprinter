@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Fab\PHPunit;
+namespace Fab\PHPUnit;
 
 /**
  * Make your unit tests fabulous!
