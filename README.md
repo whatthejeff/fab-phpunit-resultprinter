@@ -29,6 +29,12 @@ Once installed, add the following attributes to the `<phpunit>` element in your
     printerFile="vendor/whatthejeff/fab-phpunit-resultprinter/src/Fab/PHPUnit/ResultPrinter.php"
     printerClass="Fab\PHPUnit\ResultPrinter"
 
+**NOTE:** If PHPUnit was not installed via composer, you also need to include
+the composer autoloader. One easy way to do this is to add the following
+attribute to the `<phpunit>` element in your `phpunit.xml` file:
+
+    bootstrap="vendor/autoload.php"
+
 ## Tests
 
 [![Build Status](https://secure.travis-ci.org/whatthejeff/fab-phpunit-resultprinter.png?branch=master)](https://travis-ci.org/whatthejeff/fab-phpunit-resultprinter)
