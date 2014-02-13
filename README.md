@@ -17,11 +17,13 @@ The recommended way to install the Fab PHPUnit Result Printer is [through
 composer](http://getcomposer.org). Just create a `composer.json` file and
 run the `php composer.phar install` command to install it:
 
-    {
-        "require-dev": {
-            "whatthejeff/fab-phpunit-resultprinter": "~1.1"
-        }
+~~~json
+{
+    "require-dev": {
+        "whatthejeff/fab-phpunit-resultprinter": "~1.1"
     }
+}
+~~~
 
 Once installed, add the following attributes to the `<phpunit>` element in your
 `phpunit.xml` file:
