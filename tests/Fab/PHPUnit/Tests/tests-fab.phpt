@@ -15,7 +15,7 @@ PHPUnit_TextUI_Command::main();
 --EXPECTF--
 PHPUnit %s by Sebastian Bergmann.
 
-Configuration read from %s
+Configuration read from %a
 
 [31m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[32m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[33m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[34m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[35m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[36m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[31m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[32m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[33m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[34m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[35m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[36m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[31m*[0m[41;37mF[0m[31;1mE[0m  63 / 100 ( 63%)
 [36;1mS[0m[33;1mI[0m[32m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[33m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[34m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[35m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[36m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[31m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m[32m*[0m[41;37mF[0m[31;1mE[0m[36;1mS[0m[33;1mI[0m
@@ -47,6 +47,8 @@ There were 20 errors:
 5) ResultPrinterTest::testError
 %s
 
+%s:%i
+
 6) ResultPrinterTest::testError
 %s
 
@@ -70,6 +72,8 @@ There were 20 errors:
 10) ResultPrinterTest::testError
 %s
 
+%s:%i
+
 11) ResultPrinterTest::testError
 %s
 
@@ -92,6 +96,8 @@ There were 20 errors:
 
 15) ResultPrinterTest::testError
 %s
+
+%s:%i
 
 16) ResultPrinterTest::testError
 %s
