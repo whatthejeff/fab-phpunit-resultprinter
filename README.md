@@ -9,7 +9,17 @@ Make your unit tests [fabulous](https://github.com/whatthejeff/fab)!
 
 ## Requirements
 
-The Fab PHPUnit Result Printer works with PHP 5.3.3 or later.
+The Fab PHPUnit Result Printer requires:
+
+ * PHP 5.3.3 or later.
+ * A terminal emulator with support for ANSI escape sequences.
+
+**NOTE:** By default, the Windows console does not support ANSI escape
+sequences. If you'd like to use the Fab PHPUnit Result Printer on Windows, you
+may want to try one of the following solutions:
+
+ * [ANSICON](https://github.com/adoxa/ansicon)
+ * [ConEmu](https://github.com/Maximus5/ConEmu)
 
 ## Installation
 
