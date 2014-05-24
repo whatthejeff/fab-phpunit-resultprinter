@@ -58,7 +58,7 @@ To run the test suite, you need [composer](http://getcomposer.org).
 
 ## Acknowledgements
 
-The Fab PHPUnit Result Printer was __heavily__ inspired by the glorious [minitest/pride](https://github.com/seattlerb/minitest/blob/master/lib/minitest/pride.rb).
+The Fab PHPUnit Result Printer was __heavily__ inspired by the glorious [minitest/pride](https://github.com/seattlerb/minitest/blob/abc8d7bbac2bf49b2207b5e4722212109463eb18/lib/minitest/pride_plugin.rb).
 
 ## License
 
