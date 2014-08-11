@@ -15,7 +15,7 @@
         "whatthejeff/fab": "1.0.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.0.*"
+        "phpunit/phpunit": "~4.2"
     },
     "autoload": {
         "psr-0": {
